@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Allan Espinosa "m.c.balasubramaian@accenture.com"
+MAINTAINER Allan Espinosa "m.c.balasubramaian@ure.com"
 RUN yum install -y unzip
 ADD jdk1.8.0_111.zip /opt/jdk1.8.0_111.zip
 RUN chmod 777 /opt/jdk1.8.0_111.zip && cd /opt
